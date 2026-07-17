@@ -1,0 +1,36 @@
+AlarmCode	AlarmName	Cause	ElectricalCheck	MechanicalCheck	Solution	SparePart
+1	Emergency Stop Pressed	E-Stop activated	Check E-Stop circuit	Release Emergency Stop	Reset PLC	None
+2	Motor Overload	Motor overload relay trip	Measure motor current	Check gearbox load	Reset overload relay	Overload Relay
+3	Low Air Pressure	Pressure below 5 Bar	Check pressure switch	Check compressor	Restore air supply	Pressure Sensor
+4	Servo Fault	Servo drive alarm	Check drive fault code	Check coupling	Reset Servo Drive	Servo Drive
+5	Encoder Error	Encoder communication lost	Check encoder cable	Check encoder mounting	Replace encoder if faulty	Encoder
+6	Door Open	Safety door opened	Check safety switch	Close safety door	Reset Safety Circuit	Safety Switch
+7	VFD Fault	Drive fault	Read VFD error	Check Motor	Reset Drive	VFD
+8	Sensor Failure	Photo sensor blocked	Measure 24VDC	Clean sensor	Replace sensor if required	Photo Sensor
+9	Machine Not Ready	Home sensor not coming	Measure 24VDC	Check Home Sensor	Reset Home Position	Home Sensor
+10	Communication Fault	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+11	X SERVO FULTY	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+12	Y SERVO FAULTY	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+13	Z SERVO FAULTY	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+14	X REV LIMIT ACTIVE	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+15	Y REV LIMIT ACTIVE	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+16	Z LIMIT ACTIVE	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+17	X FWD LIMIT ACTIVE	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+18	Y FWD LIMIT ACTIVE	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+19	Z FWD LIMIT ACTIVE	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+20	SAFETY STOP ACTIVE	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+21	PANEL IM COMMUNICATION FAULT	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+22	X AXIS DRIVE COUMMUNICATION FAULT	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+23	Y AXIS DRIVE COUMMUNICATION FAULT	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+24	Z AXIS DRIVE COUMMUNICATION FAULT	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+25	BARCODE SCANNER COMMUNICATION FAULT	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+26	CAMERA COMMUNICATION FAULT	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+27	VALVE UNIT COUMMUNICATION FAULT	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+28	S7-1200 PLC COMMUNICATION FAULT	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+29	Y10 CYL FAULTY	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+30	Y11 CYL FAULTY	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+31	Y12 CYL FAULTY	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+32	Y13 CYL FAULTY	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+33	Y16 CYL FAULTY	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+34	Y17 CYL FAULTY	PLC Communication Lost	Check Ethernet Cable	Check PLC Power	Restart PLC	Ethernet Cable
+35	<No value>					
